@@ -10,5 +10,9 @@ Credit to startingelectronics.org for the project idea and schematic.
 * 1 MCP9700 Linear Active Thermistor IC (U1 on the schematic)
 * Jumper Wires / Wire Links (Male-to-Male)
 ## Building the Circuit:
+* (I recommend having the schematic and images pulled up alongside the instructions, as it will be easier to follow along)
 * Insert the MCP9700 into the breadboard as shown in the images provided
-* Insert C1 into the breadboard by connecting one leg to VOUT, leaving the other leg to later be connected to another component
+* Insert C1 into the breadboard by connecting one leg to VOUT, leaving the other leg not connected to anything (for now)
+* Insert C2 into the breadboard by connecting one leg to the unconnected leg of C1, leaving the other leg not connected to anything (for now)
+* With a wire link or jumper wire, connect VDD to the unconnected leg of C2 (green wire link in images)
+* With a wire link or jumper wire, connect GND to the negative strip on the power rail (yellow wire link in images)
