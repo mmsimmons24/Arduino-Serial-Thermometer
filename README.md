@@ -23,3 +23,5 @@ Credit to startingelectronics.org for the project idea and schematic.
 * Lastly, connect the Arduino to the computer via USB cable 
 ### Connecting the Arduino to Computer
 Click this link if you do not know how to set up your Arduino to your computer https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/
+## Operating the Circuit: 
+After verifying and uploading the code to the Arduino, open the serial monitor window in the Arduino IDE. The temperature will be displayed and it will update at just about every second. Applying heat to the MCP9700 sensor will cause the temperature to increase and it will display in the serial monitor. 
