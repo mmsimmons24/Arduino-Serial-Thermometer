@@ -22,4 +22,4 @@ Credit to startingelectronics.org for the project idea and schematic.
 * With a jumper wire, connect VOUT to the A0 pin on the Arduino (blue jumper wire in images)
 * Lastly, connect the Arduino to the computer via USB cable 
 ### Connecting the Arduino to Computer
-* Click this link if you do not know how to set up your Arduino to your computer https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/
+Click this link if you do not know how to set up your Arduino to your computer https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/
