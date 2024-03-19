@@ -1,7 +1,10 @@
-/* Program: serial_temperature
-   Description: Reads the voltage from a MCP9700 temperature sensor on pin A0 of the Arduino. Converts the voltage to a temperature and sends it out of the serial port for display on the serial monitor.
-   Date: 31 December 2023
-*/
+/* ----------------------------------------------------------------------------------------------------------------
+Program:       serial_temperature
+Description:   Reads the voltage from a MCP9700 temperature sensor on pin A0 of the Arduino. Converts the 
+               voltage to a temperature and sends it out of the serial port for display on the serial monitor.
+Date:          31 December 2023
+Author(s):     W.A. Smith, http://startingelectronics.org and Mikalah Simmons
+------------------------------------------------------------------------------------------------------------------*/
 void setup() {
   //initialize the serial port
   Serial.begin(9600);
@@ -11,7 +14,7 @@ void loop() {
   float temperature = 0.0; // stores the calculated temperature
   int sample;              // counts through ADC samples
   float ten_samples = 0.0; // stores sum of 10 samples
-  float f_temp = 0.0;
+  float f_temp = 0.0;      // stores the calculated temperature in degrees fahrenheit
 
   // take 10 samples from the MCP9700
   for (sample = 0; sample < 10; sample++) {
