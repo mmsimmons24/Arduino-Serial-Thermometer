@@ -16,3 +16,7 @@ Credit to startingelectronics.org for the project idea and schematic.
 * Insert C2 into the breadboard by connecting one leg to the unconnected leg of C1, leaving the other leg not connected to anything (for now)
 * With a wire link or jumper wire, connect VDD to the unconnected leg of C2 (green wire link in images)
 * With a wire link or jumper wire, connect GND to the negative strip on the power rail (yellow wire link in images)
+* With a wire link or jumper wire, connect the row where C1 and C2 are connected to the negative strip on the power rail (red wire link in images)
+* With a jumper wire, connect the negative strip on the power rail to GND on the Arduino board (black jumper wire in images)
+* With a jumper wire, connect the row where VDD and C2 are connected to 5V on the Arduino (red jumper wire in images)
+* WIth a jumper wire, connect VOUT to A0 on the Arduino (blue jumper wire in images)
