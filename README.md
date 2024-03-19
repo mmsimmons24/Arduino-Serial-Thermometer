@@ -1,7 +1,7 @@
 # Arduino-Serial-Thermometer
 This Arduino Uno Rev3 microcontroller will read the current room temperature using a MCP9700 temperature sensor IC, and display it in the Arduino IDE serial monitor window.
 Credit to https://startingelectronics.org for the project idea and schematic.
-<img src="https://github.com/mmsimmons24/Arduino-Serial-Thermometer/blob/main/serial_thermometer_images_and_videos/circuit1.jpg"/>
+<img src="https://github.com/mmsimmons24/Arduino-Serial-Thermometer/main/serial_thermometer_images_and_videos/circuit1.JPG" />
 ## Components:
 * 1 Arduino Uno Rev3 Microcontroller Or Compatible Board (Buy It From: https://store-usa.arduino.cc/products/arduino-uno-rev3?selectedStore=us)
 * Arduino IDE Software (https://www.arduino.cc/en/software)
